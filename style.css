@@ -76,27 +76,29 @@ body{
 .enter-hover{
   position: absolute;
   right: 0;
-  background: linear-gradient(95deg, transparent 5%, #d3d3d3 95%);
+  background:#fff;
+  box-shadow: 0 0 15px #d3d3d3;
   display:grid;
   place-items:end;
   align-items: start;
   row-gap:3vh;
   display:none;
   z-index: 100;
-  height: 100vh;
+  height: 127vh;
+  border-radius: 10px;
 }
 .enter-hover ul{
   list-style: none;
   text-align: center;
   display:grid;
-  row-gap:2em;
+  row-gap:1em;
   margin:12vh 3vw;
 }
 .enter-hover ul a{
   font-family:var(--font-main-content-title);
   text-decoration: none;
   color:#000;
-  font-size:1.2em;
+  font-size:1.1em;
 }
 .enter-hover-final .enter-hover{
   display:grid;
@@ -218,7 +220,7 @@ body{
   row-gap:2em;
   justify-content:center;
   box-shadow: 0 0 15px #d3d3d3;
-  margin-top:20vh;
+  margin:20vh 6vw 0 0;
 }
 .login .login-content form{
   display:grid;
